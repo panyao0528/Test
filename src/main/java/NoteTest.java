@@ -46,6 +46,10 @@ public class NoteTest {
         return userName + countName + pyName;
     }
 
+    public void outValue() {
+        System.out.println("测速");
+    }
+
     public static void main(String[] args) {
         NoteTest note = new NoteTest(3);
         System.out.println(note.toString());
